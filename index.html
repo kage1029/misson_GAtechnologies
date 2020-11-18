@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>大学生の部屋探し</title>
+  </head>
+  <body>
+  <header>
+    <h1>大学生の部屋探し</h1>
+  </header>
+  <form action="cgi-bin/aaa.cgi" method="post">
+    <table border="0">
+      <tr>
+        <td align="right"><b> 大学名：</b></td>
+        <td><input type="text" name="name" size="30" maxlength="20"></td>
+      </tr>
+      <tr>
+        <td align="right"><b> キャンパス名：</b></td>
+        <td><input type="text" name="name" size="30" maxlength="20"></td>
+      </tr>
+      <tr>
+        <td align="right"><b>通学方法：</b></td>
+        <td>
+          <input type="radio" name="gakunen" value="１年生">徒歩
+          <input type="radio" name="gakunen" value="２年生">自転車
+          <input type="radio" name="gakunen" value="３年生">バイク
+          <input type="radio" name="gakunen" value="４年生">バス
+        </td>
+        <tr>
+          <td align="right"><b>通学時間：</b></td>
+          <td>
+            <input type="radio" name="gakunen" value="１年生">5分以内
+            <input type="radio" name="gakunen" value="２年生">10分以内
+            <input type="radio" name="gakunen" value="３年生">15分以内
+            <input type="radio" name="gakunen" value="４年生">20分以内
+          </td>
+        <tr>
+      <tr>
+        <td></td>
+        <td>
+          <input type="submit" value="送信">
+          <input type="reset" value="リセット">
+        </td>
+      </tr>
+    </table>
+    </form>
+    <div class="homes">
+      <div class="container">
+      <div class="home">
+        <h3>景山ハイツ</h3>
+        <img src="home_image1.png" alt="家の写真1" width="150px">
+        <div class="box-text">
+          <p>賃料</p>
+          <p>近さ</p>
+        </div>
+      </div>
+      <div class="home">
+        <h3>景山ハイツ</h3>
+        <img src="home_image1.png" alt="家の写真1" width="150px">
+        <div class="box-text">
+          <p>賃料</p>
+          <p>近さ</p>
+        </div>
+      </div>
+      <div class="home">
+        <h3>景山ハイツ</h3>
+        <img src="home_image1.png" alt="家の写真1" width="150px">
+        <div class="box-text">
+          <p>賃料</p>
+          <p>近さ</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+  </body>
+  <footer>
+    @misson-ga
+  </footer>
+</html>
